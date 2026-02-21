@@ -15,8 +15,7 @@ int irState = 0;
 void setup() {
 
     Serial.begin(9600);
-    // TODO 4:
-    // Configure IR pin as INPUT
+    pinMode(IR_PIN, INPUT);
 
     // TODO 5:
     // Print system initialization message
