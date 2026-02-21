@@ -16,15 +16,13 @@ void setup() {
 
     Serial.begin(9600);
     pinMode(IR_PIN, INPUT);
-
-    // TODO 5:
-    // Print system initialization message
+    Serial.println("IR Obstacle Detection System");
+    Serial.println("System Initialized...\n");
+}
 }
 
 void loop() {
-
-    // TODO 6:
-    // Read digital value from IR sensor
+    irState = digitalRead(IR_PIN);
 
     // TODO 7:
     // If obstacle detected
