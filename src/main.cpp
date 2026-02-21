@@ -10,9 +10,7 @@
  * and detects obstacle presence.
  */
 #define IR_PIN 2
-
- // TODO 2:
- // Create variable to store sensor state
+int irState = 0;
 
 void setup() {
 
